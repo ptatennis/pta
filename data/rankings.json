@@ -1,3 +1,3 @@
 [
-  {"rank":1,"name":"no data","country":"no data","flag":"no data","points":0,"movement":0,"titles":0,"record":"no data","form":[0,0,0,0,0]},
+  {"rank":1,"id": "no data","name":"no data","country": "no data","photo": "assets/images/players/nikolai-orlov.svg","flagImage": "assets/images/flags/ru.svg","flagAlt": "no data","points":0,"movement":0,"titles":0,"record":"no data","form":[0,0,0,0,0]}
 ]
