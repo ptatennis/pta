@@ -2,10 +2,10 @@
   "leagueName": "Professional Tennis Association",
   "season": "2026: Season 1",
   "live": {
-    "active": false,
+    "active": true,
     "title": "no data",
     "players": ["no data", "no data"],
-    "startsAt": "2026-07-20T12:00:00+03:00",
+    "startsAt": "2026-07-20T12:10:00+03:00",
     "page": "live/index.html"
   }
 }
