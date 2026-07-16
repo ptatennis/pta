@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "id": "placeholder",
+  "seed": "placeholder",
+  "generatedAt": "2026-07-16T00:00:00.000Z",
+  "surface": "hard",
+  "surfaceLabel": "Хард",
+  "players": [{"id":"p1","name":"Игрок 1"},{"id":"p2","name":"Игрок 2"}],
+  "sets": [],
+  "winner": 0,
+  "stats": [{"aces":0,"doubleFaults":0,"winners":0,"unforcedErrors":0,"pointsWon":0,"gamesWon":0,"breakPointsWon":0,"breakPointsFaced":0,"longestRally":0},{"aces":0,"doubleFaults":0,"winners":0,"unforcedErrors":0,"pointsWon":0,"gamesWon":0,"breakPointsWon":0,"breakPointsFaced":0,"longestRally":0}],
+  "durationMs": 2000,
+  "events": [{"time":0,"type":"match_start","server":0,"surface":"hard","score":{"sets":[0,0],"games":[0,0],"points":"0:0"}},{"time":1500,"type":"match_end","winner":0,"sets":[0,0],"stats":[{"aces":0,"doubleFaults":0,"winners":0,"unforcedErrors":0,"pointsWon":0,"gamesWon":0,"breakPointsWon":0,"breakPointsFaced":0,"longestRally":0},{"aces":0,"doubleFaults":0,"winners":0,"unforcedErrors":0,"pointsWon":0,"gamesWon":0,"breakPointsWon":0,"breakPointsFaced":0,"longestRally":0}]}]
+}

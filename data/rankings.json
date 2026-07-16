@@ -1,0 +1,10 @@
+[
+  {"rank":1,"name":"Nikolai Orlov","country":"Россия","flag":"🇷🇺","points":2840,"movement":1,"titles":3,"record":"18–5","form":[1,1,0,1,1]},
+  {"rank":2,"name":"Marco Bellini","country":"Италия","flag":"🇮🇹","points":2715,"movement":-1,"titles":2,"record":"17–6","form":[1,0,1,1,1]},
+  {"rank":3,"name":"Daniel Brooks","country":"США","flag":"🇺🇸","points":2490,"movement":0,"titles":1,"record":"15–7","form":[1,1,1,0,1]},
+  {"rank":4,"name":"Lucas Moreau","country":"Франция","flag":"🇫🇷","points":2260,"movement":2,"titles":1,"record":"14–8","form":[0,1,1,1,0]},
+  {"rank":5,"name":"Adrian Vega","country":"Испания","flag":"🇪🇸","points":1995,"movement":-1,"titles":0,"record":"12–9","form":[1,0,0,1,1]},
+  {"rank":6,"name":"Ethan Cole","country":"Канада","flag":"🇨🇦","points":1840,"movement":1,"titles":0,"record":"11–10","form":[0,1,1,0,1]},
+  {"rank":7,"name":"Victor Hayes","country":"Великобритания","flag":"🇬🇧","points":1710,"movement":0,"titles":0,"record":"10–11","form":[1,0,1,0,0]},
+  {"rank":8,"name":"Leo Martinez","country":"Аргентина","flag":"🇦🇷","points":1585,"movement":-2,"titles":0,"record":"9–12","form":[0,0,1,1,0]}
+]

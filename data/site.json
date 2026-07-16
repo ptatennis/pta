@@ -1,0 +1,11 @@
+{
+  "leagueName": "Gambit Tennis Association",
+  "season": "2026 Season",
+  "live": {
+    "active": false,
+    "title": "Gambit Harbor Open — Полуфинал",
+    "players": ["Marco Bellini", "Daniel Brooks"],
+    "startsAt": "2026-07-20T19:00:00+03:00",
+    "page": "live/index.html"
+  }
+}

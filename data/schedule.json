@@ -1,0 +1,7 @@
+[
+  {"date":"21 июля","time":"19:00","tournament":"Gambit Harbor Open","round":"Четвертьфинал","p1":"Ethan Cole","p2":"Victor Hayes","court":"Center Court","surface":"hard"},
+  {"date":"21 июля","time":"21:00","tournament":"Gambit Harbor Open","round":"Четвертьфинал","p1":"Adrian Vega","p2":"Leo Martinez","court":"Center Court","surface":"hard"},
+  {"date":"23 июля","time":"20:00","tournament":"Gambit Harbor Open","round":"Полуфинал","p1":"Marco Bellini","p2":"Daniel Brooks","court":"Center Court","surface":"hard","featured":true},
+  {"date":"24 июля","time":"20:00","tournament":"Gambit Harbor Open","round":"Полуфинал","p1":"Победитель QF3","p2":"Победитель QF4","court":"Center Court","surface":"hard"},
+  {"date":"27 июля","time":"21:00","tournament":"Gambit Harbor Open","round":"Финал","p1":"Победитель SF1","p2":"Победитель SF2","court":"Center Court","surface":"hard","featured":true}
+]

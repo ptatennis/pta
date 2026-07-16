@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Gambit Tennis — прямой эфир</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+<header>
+  <div class="brand"><strong>Gambit Tennis</strong><span class="live">● LIVE</span></div>
+  <div id="serverBanner" class="server-banner">Подаёт: —</div>
+</header>
+<main class="broadcast-layout">
+  <section class="panel match-panel">
+    <div class="scoreboard">
+      <div class="score-table">
+        <div class="score-head">
+          <span>Игрок</span><span>Сеты</span><span>Геймы</span><span>Очки</span>
+        </div>
+        <div id="row0" class="player-row serving"><span class="name" id="name0">Игрок 1</span><span class="setcell" id="sets0">0</span><span class="gamecell" id="games0">0</span><span class="pointcell" id="points0">0</span></div>
+        <div id="row1" class="player-row"><span class="name" id="name1">Игрок 2</span><span class="setcell" id="sets1">0</span><span class="gamecell" id="games1">0</span><span class="pointcell" id="points1">0</span></div>
+      </div>
+      <div class="score-extra">
+        <div id="surfaceLabel" class="surface">Хард</div>
+        <div id="currentPhase" class="phase">Ожидание трансляции</div>
+        <div class="match-progress">
+          <div><span>Сет</span><b id="setNumber">1</b></div>
+          <div><span>Гейм</span><b id="gameNumber">1</b></div>
+          <div><span>Розыгрыш</span><b id="rallyNumber">—</b></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="feed-area">
+      <section class="feed-block">
+        <h2>Ход матча</h2>
+        <div id="log" class="log"></div>
+      </section>
+      <section class="stats-block">
+        <h3>Статистика</h3>
+        <div id="stats" class="stats"></div>
+      </section>
+    </div>
+
+    <div id="status" class="status">Загрузка матча…</div>
+    <div class="controls">
+      <button id="play">▶ Начать трансляцию</button>
+      <button id="pause">Пауза</button>
+      <label>Скорость <input id="speed" type="number" min="0.25" max="5" step="0.25" value="1"></label>
+      <input id="file" type="file" accept="application/json" />
+    </div>
+  </section>
+
+  <section class="panel court-panel">
+    <div class="court-title">
+      <div><span class="eyebrow">Центральный корт</span><strong id="courtSurfaceTitle">Хард</strong></div>
+      <span class="court-live">ТРАНСЛЯЦИЯ</span>
+    </div>
+    <div class="court-wrap">
+      <div class="court-stage">
+        <div class="court-bg"></div>
+        <div class="court" id="court">
+          <div class="line outer"></div>
+          <div class="line singles-left"></div>
+          <div class="line singles-right"></div>
+          <div class="line net"></div>
+          <div class="line service-top"></div>
+          <div class="line service-bottom"></div>
+          <div class="line center-service"></div>
+          <div class="line center-top-mark"></div>
+          <div class="line center-bottom-mark"></div>
+          <div class="service-box top-left"></div>
+          <div class="service-box top-right"></div>
+          <div class="service-box bottom-left"></div>
+          <div class="service-box bottom-right"></div>
+
+          <div id="p0" class="player player-top">
+            <div class="racket"></div><div class="head"></div><div class="body"></div><div class="tag">P1</div>
+          </div>
+          <div id="p1" class="player player-bottom">
+            <div class="racket"></div><div class="head"></div><div class="body"></div><div class="tag">P2</div>
+          </div>
+          <div id="bounce" class="bounce"></div>
+          <div id="hitFlash" class="hit-flash"></div>
+          <div id="ballShadow" class="ball-shadow"></div>
+          <div id="ball" class="ball"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+<script src="js/live-player.js"></script>
+</body>
+</html>

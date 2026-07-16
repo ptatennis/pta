@@ -1,0 +1,79 @@
+[
+  {
+    "id": "harbor-open-2026",
+    "name": "Gambit Harbor Open",
+    "logo": "assets/images/tournament-harbor.svg",
+    "status": "active",
+    "statusLabel": "Идёт сейчас",
+    "surface": "hard",
+    "surfaceLabel": "Хард",
+    "dates": "18–27 июля 2026",
+    "location": "Los Santos Harbor Tennis Center",
+    "description": "Главный летний турнир ассоциации на быстром харде. Игроков ждёт вечерняя атмосфера порта, матчи под прожекторами и повышенные рейтинговые очки.",
+    "prizes": [
+      {"place": "Чемпион", "money": "$75,000", "points": 500},
+      {"place": "Финалист", "money": "$40,000", "points": 300},
+      {"place": "Полуфинал", "money": "$20,000", "points": 180}
+    ],
+    "bracket": [
+      {"round": "Четвертьфинал", "matches": [
+        {"p1": "Marco Bellini", "p2": "Lucas Moreau", "score": "6:3, 4:6, 6:2", "winner": 1},
+        {"p1": "Daniel Brooks", "p2": "Nikolai Orlov", "score": "7:6, 6:4", "winner": 1},
+        {"p1": "Ethan Cole", "p2": "Victor Hayes", "score": "21 июля, 19:00", "winner": 0},
+        {"p1": "Adrian Vega", "p2": "Leo Martinez", "score": "21 июля, 21:00", "winner": 0}
+      ]},
+      {"round": "Полуфинал", "matches": [
+        {"p1": "Marco Bellini", "p2": "Daniel Brooks", "score": "23 июля, 20:00", "winner": 0},
+        {"p1": "Победитель QF3", "p2": "Победитель QF4", "score": "24 июля, 20:00", "winner": 0}
+      ]},
+      {"round": "Финал", "matches": [
+        {"p1": "Победитель SF1", "p2": "Победитель SF2", "score": "27 июля, 21:00", "winner": 0}
+      ]}
+    ]
+  },
+  {
+    "id": "desert-classic-2026",
+    "name": "Bone County Desert Classic",
+    "logo": "assets/images/tournament-desert.svg",
+    "status": "upcoming",
+    "statusLabel": "Скоро",
+    "surface": "clay",
+    "surfaceLabel": "Грунт",
+    "dates": "10–18 августа 2026",
+    "location": "Las Venturas Desert Arena",
+    "description": "Медленный грунт, длинные розыгрыши и жаркие дневные сессии. Турнир особенно подходит выносливым и оборонительным игрокам.",
+    "prizes": [
+      {"place": "Чемпион", "money": "$60,000", "points": 400},
+      {"place": "Финалист", "money": "$32,000", "points": 240},
+      {"place": "Полуфинал", "money": "$16,000", "points": 140}
+    ],
+    "bracket": []
+  },
+  {
+    "id": "city-masters-2026",
+    "name": "Los Santos City Masters",
+    "logo": "assets/images/tournament-masters.svg",
+    "status": "finished",
+    "statusLabel": "Завершён",
+    "surface": "grass",
+    "surfaceLabel": "Трава",
+    "dates": "2–10 июня 2026",
+    "location": "Richman Country Club",
+    "description": "Закрытый турнир на траве среди лучших игроков сезона. Быстрые подачи, короткие розыгрыши и традиционная клубная атмосфера.",
+    "champion": "Nikolai Orlov",
+    "prizes": [
+      {"place": "Чемпион", "money": "$90,000", "points": 600},
+      {"place": "Финалист", "money": "$45,000", "points": 360},
+      {"place": "Полуфинал", "money": "$22,000", "points": 210}
+    ],
+    "bracket": [
+      {"round": "Полуфинал", "matches": [
+        {"p1": "Nikolai Orlov", "p2": "Daniel Brooks", "score": "6:4, 7:5", "winner": 1},
+        {"p1": "Marco Bellini", "p2": "Lucas Moreau", "score": "6:2, 6:4", "winner": 1}
+      ]},
+      {"round": "Финал", "matches": [
+        {"p1": "Nikolai Orlov", "p2": "Marco Bellini", "score": "7:6, 3:6, 6:3", "winner": 1}
+      ]}
+    ]
+  }
+]
